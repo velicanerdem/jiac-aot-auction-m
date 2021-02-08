@@ -1,0 +1,14 @@
+2021-02-08T15:19:29.002320700Z
+Auction in this session: 1
+
+{state={phase=IDLE, mode=FIXED, randomSeed=12345, last_started=16:18:29.469654500, participants=[]}, config={owner=Veli Can Erdem, startMessage=aot-test-auction, initialJKcount=5, initialBalance=10000.0, messageGroup=de.dailab.jiactng.aot.auction}}
+
+21-02-08 16:18:29 INFO [n-2380bc88459b9.a-2380bfc70174a.AuctioneerMetaBean] Reading group tokens from file C:\Users\Veli Can Erdem\aotgrouptokens.txt
+21-02-08 16:18:29 WARN [n-2380bc88459b9.a-2380bfc70174a.AuctioneerMetaBean] File not found! Allowing any group token.
+21-02-08 16:18:30 INFO [n-2380bc88459b9.a-2380bfc70174a.AuctioneerMetaBean] Current Phase: STARTING
+21-02-08 16:18:30 INFO [n-2380bc88459b9.a-2380bfc70174a.AuctioneerMetaBean] Messages in Memory: 0
+21-02-08 16:18:30 INFO [n-2380bc88459b9.a-2380bfc70174a.AuctioneerMetaBean] Sending StartAuctions(1, aot-test-auction) to group
+21-02-08 16:18:32 INFO [n-2380bc88459b9.a-2380bfc70174a.AuctioneerMetaBean] Current Phase: REGISTRATION
+21-02-08 16:18:32 INFO [n-2380bc88459b9.a-2380bfc70174a.AuctioneerMetaBean] Messages in Memory: 0
+21-02-08 16:18:32 INFO [n-2380bc88459b9.a-2380bfc70174a.AuctioneerMetaBean] No one showed up for the auction. :-(
+

@@ -1,0 +1,13 @@
+Auction A only:
+
+n_i = number of items in auction.
+r_i = number of items in bundle.
+
+Demand minimizer:
+    Calculate the demand/supply when deciding value of item.
+    Problem:
+        Demand 1: demand_agent * num_agents
+        Demand 2: start_demand_agent * num_agents - total_transactions_per_item.
+        
+        What if demand < 0:
+            put min(demand, min_val) where min_val = val_item = item_coef / start_total_items * wallet * 0.9
