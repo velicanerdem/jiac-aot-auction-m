@@ -26,7 +26,7 @@
 					<property name="executionInterval" value="2000" />
 					
 					<property name="bidderId" value="172" />
-					<property name="groupToken" value="DummyUniqueGroupToken1" />
+					<property name="groupToken" value="DummyUniqueGroupToken2" />
 					<property name="messageGroup" value="de.dailab.jiactng.aot.auction" />
 					<!-- XXX add more properties if needed, e.g. for fine-tuning strategies -->
 				</bean>

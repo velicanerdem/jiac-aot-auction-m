@@ -10,5 +10,7 @@ public class StartBidder {
 
 	public static void main(String[] args) {
 		SimpleAgentNode.startAgentNode("bidder.xml", null);
+		SimpleAgentNode.startAgentNode("bidder2.xml", null);
+		SimpleAgentNode.startAgentNode("auctioneer.xml", null);
 	}
 }
