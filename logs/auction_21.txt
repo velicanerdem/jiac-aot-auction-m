@@ -1,0 +1,665 @@
+2021-02-19T14:23:58.610158600Z
+Auction in this session: 1
+Bidder(172, DummyUniqueGroupToken1, msgbox:n-1ed74208c0ecc/a-1ed73f6d52237, Wallet(bidderId=172, credits=21915.00, resources={F=0, K=5, A=1, C=1, B=1, D=2, E=1, G=6}, value=21575.00))
+Bidder(11856, DummyUniqueGroupToken3, msgbox:n-1ed7470bd4dff/a-1ed74827fc1fe, Wallet(bidderId=11856, credits=20140.00, resources={F=0, J=5, A=0, C=0, B=0, D=6, E=1, G=8}, value=19740.00))
+Bidder(2525, DummyUniqueGroupToken2, msgbox:n-1ed74410e45b6/a-1ed7498933e01, Wallet(bidderId=2525, credits=14865.00, resources={F=0, J=5, A=0, C=3, B=1, D=1, E=1, G=3}, value=14585.00))
+Bidder(13467, DummyUniqueGroupToken4, msgbox:n-1ed747c73ab5d/a-1ed7486d59266, Wallet(bidderId=13467, credits=14175.00, resources={F=1, J=5, A=1, C=3, B=0, D=0, E=0, G=8}, value=13815.00))
+{state={phase=IDLE, mode=FIXED, randomSeed=12345, last_started=15:18:58.941647, participants=[11856, 2525, 172, 13467]}, config={owner=Veli Can Erdem, startMessage=aot-test-auction, initialJKcount=5, initialBalance=10000.0, messageGroup=de.dailab.jiactng.aot.auction}}
+
+21-02-19 15:18:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Reading group tokens from file C:\Users\Veli Can Erdem\aotgrouptokens.txt
+21-02-19 15:18:58 WARN [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] File not found! Allowing any group token.
+21-02-19 15:19:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STARTING
+21-02-19 15:19:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:19:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Sending StartAuctions(1, aot-test-auction) to group
+21-02-19 15:19:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: REGISTRATION
+21-02-19 15:19:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Sending InitializeBidder(172, Wallet(bidderId=172, credits=10000.00, resources={K=5}, value=9900.00)) to 172
+21-02-19 15:19:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Sending InitializeBidder(11856, Wallet(bidderId=11856, credits=10000.00, resources={J=5}, value=9900.00)) to 11856
+21-02-19 15:19:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Sending InitializeBidder(13467, Wallet(bidderId=13467, credits=10000.00, resources={J=5}, value=9900.00)) to 13467
+21-02-19 15:19:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Sending InitializeBidder(2525, Wallet(bidderId=2525, credits=10000.00, resources={J=5}, value=9900.00)) to 2525
+21-02-19 15:19:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STARTING_ABC
+21-02-19 15:19:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:19:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Starting new Round of Auctions, mode FIXED
+21-02-19 15:19:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: STARTING
+21-02-19 15:19:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Sending StartAuction(C, 3, 0, null) to registered bidders
+21-02-19 15:19:05 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:07 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:09 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:11 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:13 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:15 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:17 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:19 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:21 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:23 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:25 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:27 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:29 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:31 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:33 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:35 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:37 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:39 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:41 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:43 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:45 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:47 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:49 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:51 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:53 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:55 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:57 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:19:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:19:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:19:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:19:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:19:59 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:01 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:03 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:05 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:07 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:09 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:11 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:13 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:15 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:17 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:19 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:21 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:23 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:25 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 3
+21-02-19 15:20:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:27 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:29 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:31 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:33 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:35 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:37 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:39 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:41 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:43 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:45 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:47 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:49 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:51 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:53 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:55 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:57 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:20:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:20:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:20:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:20:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:20:59 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:01 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:03 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:05 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:07 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:09 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:11 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:13 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:15 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:17 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:19 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:21 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:23 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:25 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:27 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:29 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:31 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:33 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:35 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:37 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:39 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:41 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:43 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:45 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:47 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:49 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:51 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:53 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:55 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:57 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:21:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:21:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:21:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:21:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:21:59 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:01 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:03 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:05 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:07 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:09 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:11 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:13 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:15 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:17 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:19 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:21 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:23 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 4
+21-02-19 15:22:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:25 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: WAITING
+21-02-19 15:22:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Waiting for auction A to end
+21-02-19 15:22:27 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:29 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:31 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:33 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:35 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:37 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:39 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:41 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:43 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:45 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:47 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:49 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:51 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:52 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:53 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:54 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:55 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:56 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:57 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:22:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:22:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:22:58 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:22:59 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:23:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:23:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:00 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:01 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:23:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:23:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:02 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:03 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:23:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:23:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:04 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:05 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:23:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:23:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:06 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:07 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: EVALUATION
+21-02-19 15:23:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerCBean] Current Phase: BIDDING
+21-02-19 15:23:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:08 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Stopping auction C...
+21-02-19 15:23:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:10 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:12 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:14 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:16 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:18 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:20 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:22 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:24 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:26 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:28 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:30 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:32 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:34 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:36 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:38 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:40 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:42 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:44 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:46 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: STOPPING
+21-02-19 15:23:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:48 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Stopping auction B...
+21-02-19 15:23:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Current Phase: EVALUATION
+21-02-19 15:23:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Messages in Memory: 0
+21-02-19 15:23:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Evaluating auction results
+21-02-19 15:23:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Final Wallets
+21-02-19 15:23:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Wallet(bidderId=11856, credits=20140.00, resources={F=0, J=5, A=0, C=0, B=0, D=6, E=1, G=8}, value=19740.00)
+21-02-19 15:23:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Wallet(bidderId=2525, credits=14865.00, resources={F=0, J=5, A=0, C=3, B=1, D=1, E=1, G=3}, value=14585.00)
+21-02-19 15:23:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Wallet(bidderId=172, credits=21915.00, resources={F=0, K=5, A=1, C=1, B=1, D=2, E=1, G=6}, value=21575.00)
+21-02-19 15:23:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Wallet(bidderId=13467, credits=14175.00, resources={F=1, J=5, A=1, C=3, B=0, D=0, E=0, G=8}, value=13815.00)
+21-02-19 15:23:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Winner: Wallet(bidderId=172, credits=21915.00, resources={F=0, K=5, A=1, C=1, B=1, D=2, E=1, G=6}, value=21575.00)
+21-02-19 15:23:50 INFO [n-1ed74a5863836.a-1ed74f367a207.AuctioneerMetaBean] Sending EndAuction(172, Wallet(bidderId=172, credits=21915.00, resources={F=0, K=5, A=1, C=1, B=1, D=2, E=1, G=6}, value=21575.00)) to registered bidders
+

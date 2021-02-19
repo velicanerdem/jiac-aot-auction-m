@@ -21,14 +21,16 @@
 	<bean name="BidderAgent" parent="SimpleAgent" scope="prototype">
 		<property name="agentBeans">
 			<list>
-				<bean name="BidderBean" class="de.dailab.jiactng.aot.auction.client.BidderBean" scope="prototype">
+				<bean name="FirstBidderBean" class="de.dailab.jiactng.aot.auction.client.BidderBean2" scope="prototype">
 					<property name="logLevel" value="INFO" />
 					<property name="executionInterval" value="2000" />
 					
 					<property name="bidderId" value="172" />
-					<property name="groupToken" value="DummyUniqueGroupToken2" />
+					<property name="groupToken" value="DummyUniqueGroupToken1" />
 					<property name="messageGroup" value="de.dailab.jiactng.aot.auction" />
 					<!-- XXX add more properties if needed, e.g. for fine-tuning strategies -->
+					<property name="expectedSellRoundToAdd" value="5"/>
+					<property name="expectedSellAllRound" value="100"/>
 				</bean>
 			</list>
 		</property>

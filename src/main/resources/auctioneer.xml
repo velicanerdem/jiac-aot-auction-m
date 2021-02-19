@@ -63,7 +63,7 @@
 	</bean>
 
 	<bean name="AuctioneerABean" class="de.dailab.jiactng.aot.auction.server.AuctioneerABean" scope="prototype">
-		<property name="logLevel" value="INFO" />
+		<property name="logLevel" value="WARN" />
 		<property name="executionInterval" value="1000" />
 		
 		<property name="messageGroup" value="de.dailab.jiactng.aot.auction" />
@@ -78,7 +78,7 @@
 	</bean>
 
 	<bean name="AuctioneerBBean" class="de.dailab.jiactng.aot.auction.server.AuctioneerBBean" scope="prototype">
-		<property name="logLevel" value="INFO" />
+		<property name="logLevel" value="WARN" />
 		<property name="executionInterval" value="1000" />
 
 		<property name="messageGroup" value="de.dailab.jiactng.aot.auction" />

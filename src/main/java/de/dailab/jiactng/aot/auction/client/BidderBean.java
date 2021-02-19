@@ -45,10 +45,11 @@ public class BidderBean extends AbstractAgentBean {
     private int initialNumItemsAuctionA;
     private Map<Resource, Double> minValMap;
 
+    private double roundSellAmount = 60;
     private double riskAversity = 1.01;
 
     private double multiplierForAdaptive = 0.9;
-    private double powerForAdaptive = 1.1;
+    private double powerForAdaptive = 1.;
     private double divisorForAdaptive = Math.pow(multiplierForAdaptive, 1 / powerForAdaptive);
     private Map<Resource, Double> itemCoeffs;
 
@@ -69,6 +70,7 @@ public class BidderBean extends AbstractAgentBean {
     Map<String, Boolean> allCallsProcessed;
     Map<String, CallForBids> callMap;
 
+    //  (1/3 + 1/4)/2
     double ftoEVal = 7 / 24;
 
 
@@ -139,7 +141,12 @@ public class BidderBean extends AbstractAgentBean {
                         if (callForBids.getMode() == CallForBids.CfBMode.BUY) {
                             processCallA(callForBids, message.getSender());
                         } else if (callForBids.getMode() == CallForBids.CfBMode.SELL) {
-                            processCallB(callForBids, message.getSender());
+                            if (callForBids.getAuctioneerId() == auctionIdB) {
+                                processCallB(callForBids, message.getSender());
+                            }
+                            else if (callForBids.getAuctioneerId() == auctionIdC) {
+                                processCallC(callForBids, message.getSender());
+                            }
                         }
                     } else if (payload instanceof InformBuy) {
                         InformBuy informBuy = (InformBuy) payload;
@@ -238,6 +245,8 @@ public class BidderBean extends AbstractAgentBean {
         if (maxVal > val) {
             val = maxVal;
         }
+
+        val += roundSellAmount;
 
         if (wallet.getCredits() >= val) {
             Bid bid = new Bid(auctionIdA, bidderId, callForBids.getCallId(), val);
@@ -349,27 +358,28 @@ public class BidderBean extends AbstractAgentBean {
             auctionRound++;
             log.info(wallet.toString() + "first bidder");
             setValuesPerB();
-            for (CallForBids anyBid : callMap.values()) {
-                if (joinResources(anyBid.getBundle()).equals("FF") && wallet.get(Resource.E) >= 3) {
-                    continue;
-                }
-                if (wallet.contains(anyBid.getBundle())) {
-                    if (anyBid.getMinOffer() >= calculateBundleValue(anyBid.getBundle()) * riskAversity) {
-                        double multiplier = 0.8;
-
-                        double val = calculateBundleMaxVal(anyBid.getBundle());
-                        val = val * multiplier;
-
-                        if (val <= anyBid.getMinOffer()) {
-                            wallet.remove(anyBid.getBundle());
-                            Bid bid = new Bid(auctionIdB, bidderId, anyBid.getCallId(), anyBid.getMinOffer());
-                            sendPayload(bid, address);
-                        }
-                        else {
-//                            log.info("Bundle will not be sold: " + anyBid.getBundle().toString());
-                        }
+            if (wallet.getCredits() <= 2000 || auctionRound >= 100) {
+                for (CallForBids anyBid : callMap.values()) {
+                    if (joinResources(anyBid.getBundle()).equals("FF") && wallet.get(Resource.E) >= 3) {
+                        continue;
                     }
+                    if (wallet.contains(anyBid.getBundle())) {
+                        if (anyBid.getMinOffer() >= calculateBundleValue(anyBid.getBundle()) * riskAversity) {
+                            double multiplier = 0.8;
 
+                            double val = calculateBundleMaxVal(anyBid.getBundle());
+                            val = val * multiplier;
+
+                            if (val <= anyBid.getMinOffer()) {
+                                wallet.remove(anyBid.getBundle());
+                                Bid bid = new Bid(auctionIdB, bidderId, anyBid.getCallId(), anyBid.getMinOffer());
+                                sendPayload(bid, address);
+                            } else {
+//                            log.info("Bundle will not be sold: " + anyBid.getBundle().toString());
+                            }
+                        }
+
+                    }
                 }
             }
             setAllCallsProcessedFalse();
@@ -408,8 +418,7 @@ public class BidderBean extends AbstractAgentBean {
                 int amount = (int) bundle.stream().filter(res -> res.equals(resource)).count();
                 try {
                     val += amount * projectedMaxValItem.get(resource);
-                }
-                catch (NullPointerException e) {
+                } catch (NullPointerException e) {
                     log.info(resource);
                 }
             } else {
@@ -478,14 +487,16 @@ public class BidderBean extends AbstractAgentBean {
     }
 
     private void setEFValues() {
-        //  (1/3 + 1/4) / 2
+        // F (1/3 + 1/4) / 2
 
-        double valTwo = valOfBundlesB.get("EEF") / (2 + ftoEVal);
-        double valThree = valOfBundlesB.get("EEEF") / (3 + ftoEVal);
-        double valFour = valOfBundlesB.get("EEEEF") / (4 + ftoEVal);
-        double valFive = valOfBundlesB.get("EEEEEF") / (5 + ftoEVal);
+        double valEPerEEF = valOfBundlesB.get("EEF") / (2 + ftoEVal);
+//        double valEPerEEF = ((120 - auctionRound) * 5 * 0.8 + valOfBundlesB.get("EEF")) / (2 + ftoEVal);
+        double valEPerEEEF = valOfBundlesB.get("EEEF") / (3 + ftoEVal);
+        double valEPerEEEEF = valOfBundlesB.get("EEEEF") / (4 + ftoEVal);
+        double valEPerEEEEEF = valOfBundlesB.get("EEEEEF") / (5 + ftoEVal);
 
-        List<Double> doubleList = Arrays.asList(valTwo, valThree, valFour, valFive);
+
+        List<Double> doubleList = Arrays.asList(valEPerEEF, valEPerEEEF, valEPerEEEEF, valEPerEEEEEF);
 
         double maxVal = Collections.max(doubleList);
         projectedMaxValItem.put(Resource.E, maxVal);
@@ -521,6 +532,10 @@ public class BidderBean extends AbstractAgentBean {
         //  Better for these to be equal right now, but the name is confusing.
         projectedMinValItem.put(Resource.J, valPerAll);
         projectedMinValItem.put(Resource.K, valPerAll);
+    }
+
+    private void processCallC(CallForBids callForBids, ICommunicationAddress sender) {
+
     }
 
 //    private double calculateStandardDeviation(List<Double> sd) {
@@ -566,11 +581,10 @@ public class BidderBean extends AbstractAgentBean {
 
     //  After seeing 20 C's were left for some reason..
     public double getRatio(double x, double y) {
-        double ratio = x/y;
+        double ratio = x / y;
         if (ratio < 0.7) {
             ratio = 0.7;
-        }
-        else if (ratio > 1.5) {
+        } else if (ratio > 1.5) {
             ratio = 1.5;
         }
         return ratio;
