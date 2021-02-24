@@ -1,4 +1,4 @@
-ASSIGNMENT
+README
 ======
 
 About this Package
